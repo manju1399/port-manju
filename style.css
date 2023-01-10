@@ -343,7 +343,7 @@ body{
     height: 400px;
     width: 700px;
     /* border: 2px red solid; */
-    padding: 18px;
+    /* padding: 18px; */
 }
 
 .cc1 {
@@ -404,7 +404,7 @@ textarea {
 }
 
 .chead{
-    margin-top: 3px;
+    margin-top: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
     color: #333;
@@ -418,7 +418,7 @@ textarea {
 }
 .cemail{
     font-size: large;
-    margin-top: 5px;
+    margin-top: 15px;
     color: #333;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -430,7 +430,7 @@ textarea {
     font-size: large;
 }
 .sicons{
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: 28px;
 }
 .sicons i{
@@ -441,6 +441,10 @@ textarea {
 .sicons i:hover{
     color: rgb(34, 33, 33);
 }
+
+.cc3{
+    border-left: #333 2px solid;
+}
 .map{
     margin-top: 3%;
     /* border: #265bec 2px solid; */
@@ -450,3 +454,21 @@ textarea {
     height: 60%;
     width: 60%;
 }
+.ccontainer::before{
+    height: 500px;
+    background-color: #1451f8;
+    position: absolute;
+    /* visibility: visible; */
+    content: none;
+}
+
+
+/* .firstc::before {
+    height: 130px;
+    width: 300px;
+    background-color: #3467f3;
+    visibility: visible;
+    position: absolute;
+    content: "";
+    border-radius: 10px 10px 0px 0px;
+} */
