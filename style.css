@@ -558,7 +558,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 250px;
-    margin-bottom: 36px;
+    margin-bottom: 6px;
     background-color: rgba(211, 214, 216, 0.39);
 }
 .thought-container{
@@ -590,4 +590,63 @@ img {
     font-size: 20px;
     font-weight: bold;
     color: #333;
+}
+
+
+/* arrow icon---------------------- */
+.topicon a{
+    text-align: right;
+    font-size: 58px;
+    position: sticky;
+    color: rgba(51, 51, 51, 0.836);
+    margin-right: 30px;
+    position: fixed;
+    bottom: 50px;
+    right: 5px;
+    text-decoration: none;
+}
+
+
+
+/* footer starts-------------------------------------- */
+.footer-copy-right
+{
+    border-top: #1451f8 5px solid;
+    background-color: rgb(49, 48, 48);
+    /* border: 2px solid red; */
+    /* margin: 50px; */
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copy-right p{
+    color: white;
+}
+
+.footer-copy-right i{
+    font-size: 10px;
+    /* margin-right: 10px; */
+    align-items: center;
+}
+
+.footer-copy-right div
+{
+    /* border: 2px solid yellow; */
+    margin: 20px;
+    width: 400px;
+}
+.footer-copy-right .icons
+{
+    text-align: right;
+}
+.footer-copy-right .icons a
+{
+    text-decoration: none;
+}
+.footer-copy-right .icons i
+{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
 }
