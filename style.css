@@ -317,6 +317,7 @@ body{
 .btn {
     margin-right: 25px;
     padding: 13px;
+    margin-top: 10px;
     background-color: #4070f4e5;
     border: none;
     border-radius: 25px;
@@ -622,6 +623,7 @@ img {
 
 .footer-copy-right p{
     color: white;
+    font-size: 13px;
 }
 
 .footer-copy-right i{
