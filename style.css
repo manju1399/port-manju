@@ -7,6 +7,10 @@
     margin-top: 0;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 .first {
     /* background-color: antiquewhite; */
     height: 700px;
@@ -340,6 +344,8 @@ body{
     color: #3467f3;
     font-size: 30px;
 }
+
+
 .contact {
     /* background-color: rgb(235, 232, 232); */
     display: flex;
