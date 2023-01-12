@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./assets/images/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,13 +23,18 @@
             <div class="downsec">
                 <h1>MANJUNATH</h1>
                 <p>Im a full stack developer</p>
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <a href="https://www.facebook.com/manjunath.shivamogga.5" target="_blank"><i
+                        class="fa fa-facebook-square" aria-hidden="true"></i></a>
 
-                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <a href="https://twitter.com/Manjunath131999" target="_blank"><i class="fa fa-twitter-square"
+                        aria-hidden="true"></i></a>
 
-                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                <a href="https://github.com/manju1399" target="_blank"><i class="fa fa-github-square"
+                        aria-hidden="true"></i></a>
 
-                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+
+                <a href="https://wa.me/8123685361" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+
             </div>
         </div>
     </section>
@@ -109,7 +115,39 @@
         </div>
     </section>
 
+
+    <h1 class="whead"><u>MY Wo</u>rks</h1>
+    <section class="gallery">
+
+        <div class="gallery__item">
+            <input type="radio" id="img-1" checked name="gallery" class="gallery__selector" />
+            <img class="gallery__img" src="./assets/images/w1.png" alt="" />
+            <label for="img-1" class="gallery__thumb"><img src="./assets/images/w1.png" alt="" /></label>
+        </div>
+        <div class="gallery__item">
+            <input type="radio" id="img-2" name="gallery" class="gallery__selector" />
+            <img class="gallery__img" src="./assets/images/w2.png" alt="" />
+            <label for="img-2" class="gallery__thumb"><img src="./assets/images/w2.png" alt="" /></label>
+        </div>
+        <div class="gallery__item">
+            <input type="radio" id="img-3" name="gallery" class="gallery__selector" />
+            <img class="gallery__img" src="./assets/images/w3.png" alt="" />
+            <label for="img-3" class="gallery__thumb"><img src="./assets/images/w3.png" alt="" /></label>
+        </div>
+        <div class="gallery__item">
+            <input type="radio" id="img-4" name="gallery" class="gallery__selector" />
+            <img class="gallery__img" src="./assets/images/w4.png" alt="" />
+            <label for="img-4" class="gallery__thumb"><img src="./assets/images/w4.png" alt="" /></label>
+        </div>
+    </section>
+
+
+
+
+    <h1 class="chead1"><u>Conta</u>ct Me</h1>
+
     <section class="contact">
+
         <div class="ccontainer">
             <div class="cc1">
                 <form action="">
@@ -117,21 +155,23 @@
                         <input type="text" class="name" placeholder="Enter your name">
                     </div>
                     <div class="ema">
-                        <input type="email" class="email" placeholder="Enter e-mail">
+                        <input type="email" id="mail" class="email" name="email" placeholder="Enter e-mail">
                     </div>
                     <div class="phno">
-                        <input type="number" class="phnoin" placeholder="Enter your phno">
+                        <input type="number" class="phnoin" name="Phno" placeholder="Enter your phno">
                     </div>
                     <div class="msg">
-                        <textarea class="message" placeholder="Write your message" name="" id="" cols="30"
+                        <textarea class="message" placeholder="Write your message" name="message" id="" cols="30"
                             rows="8"></textarea>
                     </div>
-                    <div class="cbtn">
-                        <button class="btn">Submit</button>
-                    </div>
+                    <form action="https://formspree.io/f/mknanlzl" method="post" >
+                        <div class="cbtn">
+                            <button class="btn" type="submit">Submit</button>
+                        </div>
+                    </form>
                 </form>
             </div>
-           
+
             <div class="cc2">
                 <div class="chead">
                     <h2>Contact info</h2>
@@ -149,14 +189,18 @@ Bangalore - 560019
                     </pre>
                 </div>
                 <div class="sicons">
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <a href="https://www.facebook.com/manjunath.shivamogga.5" target="_blank"><i
+                            class="fa fa-facebook-square" aria-hidden="true"></i></a>
 
-                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <a href="https://twitter.com/Manjunath131999" target="_blank"><i class="fa fa-twitter-square"
+                            aria-hidden="true"></i></a>
 
-                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                    <a href="https://github.com/manju1399" target="_blank"><i class="fa fa-github-square"
+                            aria-hidden="true"></i></a>
 
-                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
 
+                    <a href="https://wa.me/8123685361" target="_blank"><i class="fa fa-whatsapp"
+                            aria-hidden="true"></i></a>
                 </div>
                 <!-- <div class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1206.3704063332377!2d77.56297828771503!3d12.949904096309483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae157179a65009%3A0x72e34631530cec80!2sStage%20World!5e0!3m2!1sen!2sin!4v1673357993653!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -166,11 +210,27 @@ Bangalore - 560019
 
     </section>
 
-    <section class="bottom">
-        <hr>
-        <br><br><br><br><br><br><br><br><br><br>
+
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                    class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                    <path
+                        d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                    </path>
+                </svg>
+                <p class="leading-relaxed text-lg">The best programs are written so that computing machines can perform them quickly and so that human beings can understand them clearly. A programmer is ideally an essayist who works with traditional aesthetic and literary forms as well as mathematical concepts, to communicate the way that an algorithm works and to convince a reader that the results will be correct.</p>
+                <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Donald Ervin Knuth</h2>
+                <p class="text-gray-500">Selected Papers on Computer Science</p>
+            </div>
+        </div>
     </section>
 
+
+    
 </body>
 
 </html>

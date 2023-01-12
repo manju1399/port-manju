@@ -62,7 +62,7 @@
 
 .imgp {
     margin-top: 15px;
-    border: 3px solid rgba(26, 26, 216, 0.952);
+    border: 3px solid #3467f3 ;
     border-radius: 100%;
     width: 180px;
     height: 180px;
@@ -189,6 +189,7 @@
     color: rgba(0, 0, 0, 0.829);
     line-height: 22px;
     text-align: justify;
+    margin-bottom: 30px;
 }
 
 /* ===== Google Font Import - Poppins ===== */
@@ -207,17 +208,17 @@ body{
     align-items: center;
     justify-content: center;
 } */
-.container {
-    /* margin-top: 35px; */
+.container{
+    margin-top: 35px;
     margin: auto;
     margin-top: 39px;
     margin-bottom: 39px;
     position: relative;
-    max-width: 650px;
-    width: 100%;
+    max-width: 500px;
+    width: 520px;
     background: #fff;
-    /* margin: 0 15px; */
-    padding: 10px 20px;
+    margin: 0 15px;
+    padding: 10px 15px;
     border-radius: 7px;
 }
 
@@ -246,7 +247,7 @@ body{
     position: relative;
     display: block;
     height: 100%;
-    width: 90%;
+    width: 100%;
     border-radius: 6px;
     background: #4070f4;
     animation: progress 0.4s ease-in-out forwards;
@@ -289,7 +290,7 @@ body{
     padding: 2px 6px;
     border-radius: 3px;
     background: #4070f4;
-    z-index: 1;
+    z-index: 11;
 }
 
 .tooltip::before {
@@ -312,11 +313,12 @@ body{
 
 .btn {
     margin-right: 25px;
-    padding: 13px;
+    padding: 10px;
     background-color: #4070f4e5;
     border: none;
     border-radius: 25px;
     color: white;
+    font-size: 15px;
     font-weight: bold;
     transition: 0.4s;
     width: 120px;
@@ -328,7 +330,15 @@ body{
 
 
 /* conact starts----------------------------------------- */
-
+.chead1{
+    margin-top: 45px;
+    margin-left: 36px;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3467f3;
+    font-size: 30px;
+}
 .contact {
     display: flex;
     flex-wrap: wrap;
@@ -392,6 +402,7 @@ textarea {
     height: 33px;
     border: none;
     border-radius: 8px;
+    outline: none;
 }
 
 .cc2 {
@@ -472,3 +483,55 @@ textarea {
     content: "";
     border-radius: 10px 10px 0px 0px;
 } */
+
+/* Gallery starts---------------------------------- */
+.whead{
+    margin-top: 30px;
+    margin-left: 36px;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3467f3;
+    font-size: 30px;
+}
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.gallery {
+  display: flex;
+  margin: 0px auto;
+  margin-top: 22px;
+  max-width: 600px;
+  position: relative;
+  padding-top: 66.6666666667%;
+}
+@media screen and (min-width: 600px) {
+  .gallery {
+    padding-top: 320px;
+  }
+}
+.gallery__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.gallery__thumb {
+  padding-top: 6px;
+  margin: 6px;
+  display: block;
+}
+.gallery__selector {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.gallery__selector:checked + .gallery__img {
+  opacity: 1;
+}
+.gallery__selector:checked ~ .gallery__thumb > img {
+  box-shadow: 0 0 0 3px #1451f8;
+}
