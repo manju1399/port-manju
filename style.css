@@ -191,9 +191,28 @@ html{
 .skillsp {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(0, 0, 0, 0.829);
-    line-height: 22px;
+    /* line-height: 22px; */
     text-align: justify;
 }
+
+.skillsp h3{
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    font-size: 20px;
+    color: rgba(51, 51, 51, 0.822);
+    line-height: 30px;
+    
+}
+
+.skillsp ul{
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 33px;
+    margin-left: 0px;
+    list-style: disc;
+    text-align: left;
+}
+
 
 /* ===== Google Font Import - Poppins ===== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
