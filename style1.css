@@ -1,7 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    /* background-color: rgb(46, 44, 44); */
+    background-color: #333;
 
 }
 
@@ -33,7 +33,19 @@ html{
     padding-left: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+    background-color: rgb(119, 107, 224);
+}
+
+.navs i{
+    background-color:rgb(119, 107, 224) ;
+    color: white;
     
+}
+
+.navi
+{
+    height: 50px;
+    background-color: rgb(119, 107, 224);
 }
 
 .nlist{
@@ -43,15 +55,20 @@ html{
     /* padding-right: 10px; */
     margin-right: 20px;
     /* padding: 10px; */
+    background-color: rgb(119, 107, 224);
+    height: 50px;
 }
 .nlist li{
     padding: 15px;
     font-size: 24px;
     color: white;
+    background-color: rgb(119, 107, 224);
+    height: 50px;
 }
 
 .nlist li i:hover{
     color: rgb(223, 216, 216);
+    
 }
 
 
@@ -68,7 +85,7 @@ html{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(219, 217, 217, 0.39); 
+    background-color: #333; 
     
 }
 
@@ -82,7 +99,7 @@ html{
 .first .hu {
     background-color: rgb(119, 107, 224);
     width: 140px;
-    height: 3p  x;
+    height: 3px;
     margin-left: 510px;
 }
 
@@ -99,8 +116,8 @@ html{
     color: rgb(119, 107, 224);
     /* justify-content: space-around; */
     border-radius: 10px;
-    box-shadow: 1px 1px 15px grey;
-    background-color: white;
+    box-shadow: 1px 1px 18px black;
+    background-color: rgba(32, 32, 32, 0.062);
     margin-bottom: 70px;
 }
 
@@ -122,7 +139,7 @@ html{
     height: 180px;
     z-index: 13;
     /* padding: 2px; */
-    background-color: white;
+    background-color: rgb(41, 41, 41);
 }
 
 .downsec {
@@ -144,13 +161,13 @@ html{
 }
 
 .downsec i {
-    color: #1f58f5be;
+    color: rgb(238, 233, 233);
     font-size: 21px;
     padding: 8px;
     transition: 0.4s;
 }
 .downsec i:hover{
-    color: rgb(119, 107, 224);
+    color: rgb(205, 204, 207);
 }
 
 .imgp img {
@@ -174,6 +191,7 @@ html{
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
+    background-color: #333;
 }
 
 .about .abh1 {
@@ -186,7 +204,7 @@ html{
 
 .about .abp1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgba(0, 0, 0, 0.829);
+    color: rgb(199, 197, 197);
     line-height: 22px;
     text-align: justify;
 }
@@ -195,12 +213,12 @@ html{
     font-size: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 49px;
-    color: rgba(0, 0, 0, 0.74);
+    color: rgb(255, 254, 254);
 }
 
 .about .abp2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgba(0, 0, 0, 0.829);
+    color: rgb(199, 197, 197);
     line-height: 22px;
     text-align: justify;
 }
@@ -213,7 +231,7 @@ html{
     list-style: none;
     padding-top: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(65, 63, 63);
+    color: rgb(199, 197, 197);
 }
 
 .about li i {
@@ -223,7 +241,7 @@ html{
 }
 
 .about li b {
-    color: rgba(0, 0, 0, 0.829);
+    color: rgba(250, 248, 248, 0.829)
 }
 
 
@@ -231,7 +249,7 @@ html{
 .skills {
     width: 100%;
     padding: 15px;
-    background-color: rgba(187, 184, 184, 0.26);
+    background-color: #333;
     
 }
 
@@ -245,7 +263,7 @@ html{
 
 .skillsp {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgba(0, 0, 0, 0.829);
+    color: rgb(199, 197, 197);
     /* line-height: 22px; */
     text-align: justify;
 }
@@ -254,7 +272,7 @@ html{
     margin-top: 20px;
     /* margin-left: 30px; */
     font-size: 20px;
-    color: rgba(51, 51, 51, 0.822);
+    color: rgb(255, 252, 252);
     line-height: 30px;
     
 }
@@ -293,7 +311,7 @@ body{
     position: relative;
     max-width: 650px;
     width: 100%;
-    background: #fff;
+    background: rgb(109, 108, 108);
     /* margin: 0 15px; */
     padding: 10px 20px;
     border-radius: 7px;
@@ -302,6 +320,7 @@ body{
 .container .skill-box {
     width: 100%;
     margin: 25px 0;
+    background-color: rgb(109, 108, 108);
 }
 
 .skill-box .title {
@@ -309,7 +328,8 @@ body{
     display: block;
     font-size: 14px;
     font-weight: 600;
-    color: #333;
+    color: rgb(255, 255, 255);
+    background-color: rgb(109, 108, 108);
 }
 
 .skill-box .skill-bar {
@@ -317,7 +337,7 @@ body{
     width: 100%;
     border-radius: 6px;
     margin-top: 6px;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgb(199, 197, 197);
 }
 
 .skill-bar .skill-per {
@@ -399,6 +419,7 @@ body{
     font-weight: bold;
     transition: 0.4s;
     width: 120px;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -409,11 +430,11 @@ body{
 
 /* conact starts----------------------------------------- */
 .chead1{
-    
-    margin-top: 80px;
-    margin-left: 36px;
+    background-color: #333;
+    padding-top: 40px;
+    padding-left: 36px;
     text-align: left;
-    padding: 10px;
+    /* padding: 10px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(119, 107, 224);
     font-size: 30px;
@@ -421,6 +442,7 @@ body{
 
 
 .contact {
+    background-color: #333;
     width: 100%;
     padding-left: 15px;padding-right: 15px;
     /* background-color: rgb(235, 232, 232); */
@@ -472,7 +494,7 @@ body{
 textarea {
     width: 100%;
     border: none;
-    background-color: rgba(184, 181, 181, 0.267);
+    background-color: rgb(112, 111, 111);
     border-radius: 8px;
     margin-bottom: 17px;
 }
@@ -482,7 +504,7 @@ textarea {
 }
 
 .cc1 input {
-    background-color: rgba(184, 181, 181, 0.267);
+    background-color: rgb(112, 111, 111);
     width: 100%;
     height: 33px;
     border: none;
@@ -491,11 +513,12 @@ textarea {
 }
 
 .cc2 {
+    background-color: #333;
     padding-left: 32px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border-left: 3px solid #333;
+    border-left: 3px solid rgb(201, 199, 199);
     /* position: sticky; */
 }
 
@@ -503,24 +526,24 @@ textarea {
     margin-top: 46px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
-    color: #333;
+    color: rgb(252, 248, 248);
 }
 
 .cphno{
     font-size: large;
     margin-top: 19px;
-    color: #333;
+    color: rgb(199, 197, 197);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .cemail{
     font-size: large;
     margin-top: 15px;
-    color: #333;
+    color: rgb(199, 197, 197);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .cadress{
     margin-top: 10px;
-    color: #333;
+    color: rgb(199, 197, 197);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 17px;
     font-size: large;
@@ -530,17 +553,15 @@ textarea {
     font-size: 28px;
 }
 .sicons i{
-    color: rgba(51, 51, 51, 0.89);
+    color: rgb(199, 197, 197);
     margin-right: 15px;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 .sicons i:hover{
-    color: rgb(34, 33, 33);
+    color: rgb(255, 255, 255);
 }
 
-.cc3{
-    border-left: #333 2px solid;
-}
+
 .map{
     margin-top: 3%;
     /* border: #265bec 2px solid; */
@@ -561,6 +582,12 @@ textarea{
     border: none;
     outline: none;
 }
+textarea::placeholder{
+    color: rgb(199, 197, 197);
+}
+.cc1 input::placeholder{
+    color:rgb(199, 197, 197) ;
+}
 
 
 /* .firstc::before {
@@ -575,25 +602,29 @@ textarea{
 
 /* Gallery starts---------------------------------- */
 .whead{
-    margin-top: 30px;
-    margin-left: 15px;
+    background-color: #333;
+    /* margin-top: 30px; */
+    padding-top: 0;
+    padding-left: 35px;
+   padding-bottom: 30px;
     text-align: left;
-    padding: 10px;
+    /* padding: 10px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(119, 107, 224);
     font-size: 30px;
 }
 img {
+    /* background-color: #333; */
   max-width: 100%;
   vertical-align: top;
 }
 
 .gallery {
     width: 100%;
-    
+    background-color: #333;
   display: flex;
   margin: 0px auto;
-  margin-top: 22px;
+  /* padding-top: 82px; */
   max-width: 600px;
   position: relative;
   padding-top: 66.6666666667%;
@@ -631,13 +662,14 @@ img {
 /* Thought starts--------------------- */
 
 .thought{
+
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 250px;
-    margin-bottom: 6px;
-    background-color: rgba(211, 214, 216, 0.39);
+    margin-bottom: 0px;
+    background-color: #333;
 }
 .thought-container{
     display: flex;
@@ -658,7 +690,7 @@ img {
 .qpara{
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #333;
+    color: rgb(199, 197, 197);
     text-align: center;
     font-size: 16px;
     line-height: 25px;
@@ -667,7 +699,7 @@ img {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: rgb(255, 253, 253);
 }
 
 
@@ -676,7 +708,7 @@ img {
     text-align: right;
     font-size: 58px;
     position: sticky;
-    color: rgba(51, 51, 51, 0.836);
+    color: rgb(199, 197, 197);
     margin-right: 30px;
     position: fixed;
     bottom: 50px;
