@@ -18,12 +18,15 @@
                 style.href="./style1.css"
                 x.className='bi bi-sun';
                 // x.style.color="rgb(119, 107, 224)"
+                // document.body.style.transition="10s"
             } 
             else if(x.className=='bi bi-sun') {
                 // console.log('not running');
                 style.href="./style.css"
                 x.className='bi bi-moon';
                 // x.style.color="rgb(119, 107, 224)"
+                // document.body.style.transition="10s"
+
             }
         }
        
